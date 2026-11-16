@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "scope": "Exact reusable font and procedural SFX library; no speech, recordings or output media. Font notices live in engine/assets/fonts/LICENSE-*.txt.",
+  "files": [
+    {
+      "path": "engine/assets/audio/air-bed-loop.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "3c722fc89ce42e985fb5cf08b456d0d553cce617862ccc745966c7e8e49f40aa",
+      "bytes": 384044
+    },
+    {
+      "path": "engine/assets/audio/air-sweep.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "e67ac67d08751939efcebd11d4db6c1114f3be0d47e78425ad94cdff1d4d8f1a",
+      "bytes": 26924
+    },
+    {
+      "path": "engine/assets/audio/distant-rain-loop.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "61b54eaeb76d3a938846466c4e7c6b13f9e50b6bab58b707a4ab182f059e30b4",
+      "bytes": 384044
+    },
+    {
+      "path": "engine/assets/audio/soft-resolve.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "9dcfee9d2b28b8ecae922fa7c0dfcd55eacacb150d688f182d4cf384e63f884d",
+      "bytes": 46124
+    },
+    {
+      "path": "engine/assets/audio/soft-tick.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "b73e401a0c84d512f924ff10dfe747beec4e6648ca9017611f2f31a15adfc4e3",
+      "bytes": 8684
+    },
+    {
+      "path": "engine/assets/fonts/DejaVuSans-Bold.ttf",
+      "kind": "font",
+      "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "bytes": 708920
+    },
+    {
+      "path": "engine/assets/fonts/DejaVuSans.ttf",
+      "kind": "font",
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "bytes": 759720
+    },
+    {
+      "path": "engine/assets/fonts/Inter-Reel-Bold.ttf",
+      "kind": "font",
+      "sha256": "5d636cbe34afb90bc2310e33b72aece42c8e43e0793efade619c5ecd8d2dcbf4",
+      "bytes": 343628
+    },
+    {
+      "path": "engine/assets/fonts/LiberationSans-Bold.ttf",
+      "kind": "font",
+      "sha256": "1b5f2da6f4cadce4c05b9ecebe3a6fcd374eb95ae443605e799f4c3287978939",
+      "bytes": 414568
+    },
+    {
+      "path": "engine/assets/fonts/LiberationSans-Regular.ttf",
+      "kind": "font",
+      "sha256": "bade59d822652f76e6941aa87b40a87c13d1cc70db98ededb5011127efafd1d3",
+      "bytes": 410820
+    },
+    {
+      "path": "engine/assets/fonts/LiberationSerif-Bold.ttf",
+      "kind": "font",
+      "sha256": "443a4dbd694b6e4689925947b456e0532e10b19c90fa32eb39ea6c2cd9db9ebd",
+      "bytes": 370196
+    },
+    {
+      "path": "engine/assets/fonts/NotoSansArabic-Bold.ttf",
+      "kind": "font",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "engine/assets/fonts/NotoSansArabic-Regular.ttf",
+      "kind": "font",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "bytes": 244072
+    },
+    {
+      "path": "engine/assets/fonts/Vazirmatn-Bold.ttf",
+      "kind": "font",
+      "sha256": "f635fdbea28f265de395ba83b4b1570dcf2f58d13c65469e61903b1c2d2ae723",
+      "bytes": 123036
+    },
+    {
+      "path": "engine/assets/fonts/Vazirmatn-Regular.ttf",
+      "kind": "font",
+      "sha256": "b69fd4c680b8f3f225feabcc655a2c585d97627b8f5f5c0f9985e894069f3a56",
+      "bytes": 122752
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/boat.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "c6220a724ed81c423162dc81e98625da4bc9461a425e3a0e561c53198969ad51",
+      "bytes": 100844
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/click.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "0bbfc6c4ff03c57701d6976ba8c179fe8afde02e6da393e2e4f12661bb682c6e",
+      "bytes": 8684
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/fabric.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "f01d56527819e0606c0be566e65a5260590b188647a11e466ffaa1e6ed082a39",
+      "bytes": 18284
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/radio.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "5ff00790d35f11ebdab58d450d8dfac48d713519836836f43dc976e349e81872",
+      "bytes": 11564
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/water-bed.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "ba9860b7c485504e7d34dcf0fc901327ad8ce3d68b7e578e11ec11eefd11efc1",
+      "bytes": 384044
+    },
+    {
+      "path": "engine/assets/reconstruction-sound/zipper.wav",
+      "kind": "shared-procedural-sfx",
+      "sha256": "4e5ec970ed139083ef5bdee181a2a3bd5025970bf7beaf045bcbfdad3339b4e6",
+      "bytes": 23084
+    }
+  ]
+}

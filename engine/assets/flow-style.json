@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "arrow": {
+    "up": "#efa041",
+    "down": "#de7969",
+    "up_tail": "#e39338",
+    "down_tail": "#cf6258",
+    "glow": 0.18,
+    "blur": 4
+  },
+  "particles": {
+    "haze": 0.3,
+    "hazePulse": 0,
+    "minSize": 1.5,
+    "sizeRange": 4.2,
+    "rate": 0.26,
+    "spread": 1.06,
+    "sway": 5,
+    "brightness": 1,
+    "haze_color": "#efa24b",
+    "halo_color": "#ffc778",
+    "core_color": "#ffd29a",
+    "halo_scale": 2.2,
+    "halo_alpha": 0.65,
+    "core_alpha": 0.58
+  },
+  "parcel": {
+    "full": {
+      "outer": "#eea553",
+      "inner": "#efb067",
+      "highlight": "#f4bd7b",
+      "outer_alpha": 0.8,
+      "inner_alpha": 0.9,
+      "core_alpha": 0.2
+    },
+    "rise": {
+      "outer": "#efa54b",
+      "inner": "#f7ba64",
+      "highlight": "#eeb676",
+      "outer_alpha": 0.52,
+      "inner_alpha": 0.3,
+      "core_alpha": 0
+    },
+    "mass": {
+      "outer": "#eeb466",
+      "inner": "#f1bb79",
+      "highlight": "#ffe1a8",
+      "outer_alpha": 0.55,
+      "inner_alpha": 0.4,
+      "core_alpha": 0
+    }
+  },
+  "limits": [
+    "Arrow opacity is fitted RGB over local background; centre tracking interpolates low-contrast phases.",
+    "Particles are deterministic reconstruction; exact source paths are not tracked.",
+    "Reference video remains comparison-only; all production geometry is original code."
+  ],
+  "column": {
+    "color": "#f5c676",
+    "alpha": 0.4
+  }
+}

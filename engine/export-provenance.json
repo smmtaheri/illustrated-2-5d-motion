@@ -1,0 +1,305 @@
+{
+  "format": "transparent-source-export",
+  "source_runtime_immutable": true,
+  "changes": [
+    "Generic profile/default material board and optional caller style_anchor.",
+    "No historical fixture/profile media, brand logo or branded outro.",
+    "No bundled TTS client, speech ZIP or Remotion template; supplied narration assembly remains.",
+    "Previously reviewed underline glyph-clearance, mixed-language labels, exact event steps, continuing outgoing motion and precipitation visibility fixes carried forward.",
+    "Historical scene-specific type, flow, mechanism and heat calibration data omitted; generic shared presets retained.",
+    "User-voice handoff keeps narration text/windows on beats, with pending plans allowed without invented SFX.",
+    "Generic artwork roles and ordered project sky palette overrides; missing narration fails before video encoding without invoking TTS.",
+    "Generic image roles and project sky colors are configurable.",
+    "External compiled projects resolve the root pinned Canvas dependency.",
+    "Custom typography preserves the narration beat list.",
+    "Explicit solid shape fill supplies its matte base color.",
+    "Pending user recording blocks audio output before encoding; visual probes remain available."
+  ],
+  "files": {
+    "assets/audio/air-bed-loop.wav": {
+      "source_sha256": "3c722fc89ce42e985fb5cf08b456d0d553cce617862ccc745966c7e8e49f40aa",
+      "export_sha256": "3c722fc89ce42e985fb5cf08b456d0d553cce617862ccc745966c7e8e49f40aa",
+      "adapted": false
+    },
+    "assets/audio/air-sweep.wav": {
+      "source_sha256": "e67ac67d08751939efcebd11d4db6c1114f3be0d47e78425ad94cdff1d4d8f1a",
+      "export_sha256": "e67ac67d08751939efcebd11d4db6c1114f3be0d47e78425ad94cdff1d4d8f1a",
+      "adapted": false
+    },
+    "assets/audio/distant-rain-loop.wav": {
+      "source_sha256": "61b54eaeb76d3a938846466c4e7c6b13f9e50b6bab58b707a4ab182f059e30b4",
+      "export_sha256": "61b54eaeb76d3a938846466c4e7c6b13f9e50b6bab58b707a4ab182f059e30b4",
+      "adapted": false
+    },
+    "assets/audio/soft-resolve.wav": {
+      "source_sha256": "9dcfee9d2b28b8ecae922fa7c0dfcd55eacacb150d688f182d4cf384e63f884d",
+      "export_sha256": "9dcfee9d2b28b8ecae922fa7c0dfcd55eacacb150d688f182d4cf384e63f884d",
+      "adapted": false
+    },
+    "assets/audio/soft-tick.wav": {
+      "source_sha256": "b73e401a0c84d512f924ff10dfe747beec4e6648ca9017611f2f31a15adfc4e3",
+      "export_sha256": "b73e401a0c84d512f924ff10dfe747beec4e6648ca9017611f2f31a15adfc4e3",
+      "adapted": false
+    },
+    "assets/flow-style.json": {
+      "source_sha256": "71a46577f90798ddb204ca54ac416dfcb6a2b7aeeae5ceedf5cfded639377f4b",
+      "export_sha256": "83e88f0fb167f0f25aa275e35dfbb9a4d9f4bfeb9d5e672a47e2351f8736c0f3",
+      "adapted": true
+    },
+    "assets/font-manifest.json": {
+      "source_sha256": "5283f6711872df81f3360534165f51484531d5419c259c26dd31675e17eff081",
+      "export_sha256": "5283f6711872df81f3360534165f51484531d5419c259c26dd31675e17eff081",
+      "adapted": false
+    },
+    "assets/fonts/DejaVuSans-Bold.ttf": {
+      "source_sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "export_sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "adapted": false
+    },
+    "assets/fonts/DejaVuSans.ttf": {
+      "source_sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "export_sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "adapted": false
+    },
+    "assets/fonts/Inter-Reel-Bold.ttf": {
+      "source_sha256": "5d636cbe34afb90bc2310e33b72aece42c8e43e0793efade619c5ecd8d2dcbf4",
+      "export_sha256": "5d636cbe34afb90bc2310e33b72aece42c8e43e0793efade619c5ecd8d2dcbf4",
+      "adapted": false
+    },
+    "assets/fonts/LICENSE-DejaVu.txt": {
+      "source_sha256": "e81d9dced49fea2a7d576cbea283873de58563c5d488f954deb282843c3ea79c",
+      "export_sha256": "e81d9dced49fea2a7d576cbea283873de58563c5d488f954deb282843c3ea79c",
+      "adapted": false
+    },
+    "assets/fonts/LICENSE-Inter.txt": {
+      "source_sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "export_sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "adapted": false
+    },
+    "assets/fonts/LICENSE-Liberation.txt": {
+      "source_sha256": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+      "export_sha256": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+      "adapted": false
+    },
+    "assets/fonts/LICENSE-Noto.txt": {
+      "source_sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "export_sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "adapted": false
+    },
+    "assets/fonts/LICENSE-Vazirmatn.txt": {
+      "source_sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31",
+      "export_sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31",
+      "adapted": false
+    },
+    "assets/fonts/LiberationSans-Bold.ttf": {
+      "source_sha256": "1b5f2da6f4cadce4c05b9ecebe3a6fcd374eb95ae443605e799f4c3287978939",
+      "export_sha256": "1b5f2da6f4cadce4c05b9ecebe3a6fcd374eb95ae443605e799f4c3287978939",
+      "adapted": false
+    },
+    "assets/fonts/LiberationSans-Regular.ttf": {
+      "source_sha256": "bade59d822652f76e6941aa87b40a87c13d1cc70db98ededb5011127efafd1d3",
+      "export_sha256": "bade59d822652f76e6941aa87b40a87c13d1cc70db98ededb5011127efafd1d3",
+      "adapted": false
+    },
+    "assets/fonts/LiberationSerif-Bold.ttf": {
+      "source_sha256": "443a4dbd694b6e4689925947b456e0532e10b19c90fa32eb39ea6c2cd9db9ebd",
+      "export_sha256": "443a4dbd694b6e4689925947b456e0532e10b19c90fa32eb39ea6c2cd9db9ebd",
+      "adapted": false
+    },
+    "assets/fonts/NotoSansArabic-Bold.ttf": {
+      "source_sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "export_sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "adapted": false
+    },
+    "assets/fonts/NotoSansArabic-Regular.ttf": {
+      "source_sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "export_sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "adapted": false
+    },
+    "assets/fonts/Vazirmatn-Bold.ttf": {
+      "source_sha256": "f635fdbea28f265de395ba83b4b1570dcf2f58d13c65469e61903b1c2d2ae723",
+      "export_sha256": "f635fdbea28f265de395ba83b4b1570dcf2f58d13c65469e61903b1c2d2ae723",
+      "adapted": false
+    },
+    "assets/fonts/Vazirmatn-Regular.ttf": {
+      "source_sha256": "b69fd4c680b8f3f225feabcc655a2c585d97627b8f5f5c0f9985e894069f3a56",
+      "export_sha256": "b69fd4c680b8f3f225feabcc655a2c585d97627b8f5f5c0f9985e894069f3a56",
+      "adapted": false
+    },
+    "assets/fonts/Vazirmatn-source.json": {
+      "source_sha256": "c0f9a8f8616811ee018e3ba75af60c38c3af1abf59b974a73064da58cbca8980",
+      "export_sha256": "c0f9a8f8616811ee018e3ba75af60c38c3af1abf59b974a73064da58cbca8980",
+      "adapted": false
+    },
+    "assets/house-materials.json": {
+      "source_sha256": "08b3d7d24bfed22056dba83ef4fb2bce8d160a9956298b11078ff0239d5c3c39",
+      "export_sha256": "eb2e7fcc56ca4703ca4f040d8c718cb96ea0eadd80b169ae6586566c2646aea3",
+      "adapted": true
+    },
+    "assets/mechanism-style.json": {
+      "source_sha256": "da65e12f59179891b77e9c7c396d0f7624a2c724494fc3bd6ef0dea5066662a7",
+      "export_sha256": "60d9edbe8bc6663fb756f25c89d04ef1188ab168bfc01c9916a2e28a2f8fcf7f",
+      "adapted": true
+    },
+    "assets/reconstruction-sound/boat.wav": {
+      "source_sha256": "c6220a724ed81c423162dc81e98625da4bc9461a425e3a0e561c53198969ad51",
+      "export_sha256": "c6220a724ed81c423162dc81e98625da4bc9461a425e3a0e561c53198969ad51",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/click.wav": {
+      "source_sha256": "0bbfc6c4ff03c57701d6976ba8c179fe8afde02e6da393e2e4f12661bb682c6e",
+      "export_sha256": "0bbfc6c4ff03c57701d6976ba8c179fe8afde02e6da393e2e4f12661bb682c6e",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/fabric.wav": {
+      "source_sha256": "f01d56527819e0606c0be566e65a5260590b188647a11e466ffaa1e6ed082a39",
+      "export_sha256": "f01d56527819e0606c0be566e65a5260590b188647a11e466ffaa1e6ed082a39",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/provenance.json": {
+      "source_sha256": "cebd3c4b1843efb64be02234ae83bfdf6cfb3f3aa083d5683962880711c0ff48",
+      "export_sha256": "cebd3c4b1843efb64be02234ae83bfdf6cfb3f3aa083d5683962880711c0ff48",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/radio.wav": {
+      "source_sha256": "5ff00790d35f11ebdab58d450d8dfac48d713519836836f43dc976e349e81872",
+      "export_sha256": "5ff00790d35f11ebdab58d450d8dfac48d713519836836f43dc976e349e81872",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/water-bed.wav": {
+      "source_sha256": "ba9860b7c485504e7d34dcf0fc901327ad8ce3d68b7e578e11ec11eefd11efc1",
+      "export_sha256": "ba9860b7c485504e7d34dcf0fc901327ad8ce3d68b7e578e11ec11eefd11efc1",
+      "adapted": false
+    },
+    "assets/reconstruction-sound/zipper.wav": {
+      "source_sha256": "4e5ec970ed139083ef5bdee181a2a3bd5025970bf7beaf045bcbfdad3339b4e6",
+      "export_sha256": "4e5ec970ed139083ef5bdee181a2a3bd5025970bf7beaf045bcbfdad3339b4e6",
+      "adapted": false
+    },
+    "assets/sound-palette.json": {
+      "source_sha256": "cfaa8dfc13a74f992a3fcfb350458194aeb8e2ba762e02743831ce480b980358",
+      "export_sha256": "cfaa8dfc13a74f992a3fcfb350458194aeb8e2ba762e02743831ce480b980358",
+      "adapted": false
+    },
+    "assets/type-motion.json": {
+      "source_sha256": "fba48e2642ab62297dda95b9f6ce1c68c2e3ddf79397184229f854751d5f2637",
+      "export_sha256": "7a799de82e5e3498bf43ad9786f67eed14b5f64a374ec33b684ed1a6a187b6d5",
+      "adapted": true
+    },
+    "scripts/assemble_narration.py": {
+      "source_sha256": "99c4626ca9af809ae1287b8aac3b631bf26fb06be70d6b99053ee07ad9ba2dfc",
+      "export_sha256": "99c4626ca9af809ae1287b8aac3b631bf26fb06be70d6b99053ee07ad9ba2dfc",
+      "adapted": false
+    },
+    "scripts/audio_timeline.py": {
+      "source_sha256": "b48db18bab1d01f54cbbc5e97f2ff07bde169ed3d81ffff6eeeeba0c870daa7c",
+      "export_sha256": "e0b83762ef59e4c92a1f731d07b9b72ab4a8322579a43c3b0bb84e123ffe1834",
+      "adapted": true
+    },
+    "scripts/audit_mix.py": {
+      "source_sha256": "6ade95e59d7a712f826b51fe840c30c1c5f70f46c698914653338f4329499a55",
+      "export_sha256": "6ade95e59d7a712f826b51fe840c30c1c5f70f46c698914653338f4329499a55",
+      "adapted": false
+    },
+    "scripts/check_project.py": {
+      "source_sha256": "6764484315f73dabcb776ddb6cc1724d9b16d9b5c0cb02d22d139e69192ad776",
+      "export_sha256": "c7f3adb40ee62fd776aa84dd1f4aff16af1146b0713d5e52669008f463785068",
+      "adapted": true
+    },
+    "scripts/compile_scenario.py": {
+      "source_sha256": "4908d7937c01c3678c53909c85c1c4fc21346c76f584ed92f93ec1aa91f0715f",
+      "export_sha256": "33d1b08837422eb9f3ada97c539b86994b8c004979d127515fe0c19fcdcd5b69",
+      "adapted": true
+    },
+    "scripts/font_runtime.cjs": {
+      "source_sha256": "1b1c45f025e3b4ce722bfe2643e6fd97db603020f37ee0d0d5cb2b3021671fcf",
+      "export_sha256": "104f3bfeee3f9e914e5d2f28c460306c97d36c1993b4f2fcb29cc62e3ca7964d",
+      "adapted": true
+    },
+    "scripts/motion_kit.cjs": {
+      "source_sha256": "cdbc9d4fb62df468eac9bcc9a33abced044a8a624f1e508935d4d969e88fb67c",
+      "export_sha256": "cdbc9d4fb62df468eac9bcc9a33abced044a8a624f1e508935d4d969e88fb67c",
+      "adapted": false
+    },
+    "scripts/paraglider_rig.cjs": {
+      "source_sha256": "0d76a6ac26def2dbcf25545e529d413c82be966d7c2af4a072a60ce622c3fb74",
+      "export_sha256": "0d76a6ac26def2dbcf25545e529d413c82be966d7c2af4a072a60ce622c3fb74",
+      "adapted": false
+    },
+    "scripts/recipe_parts.py": {
+      "source_sha256": "fc2a33b350fb02c3a3aff02a4197f631a4649b905a5ef0d93b4c3e01ecf0fa4f",
+      "export_sha256": "8b2b9e39605c6a9fa0122c091d2d51842b51037767034a99aaea6dd42e1bfa77",
+      "adapted": true
+    },
+    "scripts/reference_audio_contract.py": {
+      "source_sha256": "3fb9f48a3a8213c6c7175b9f062434d716eaeb3a40ffe65c780b90cdaeade5f0",
+      "export_sha256": "3fb9f48a3a8213c6c7175b9f062434d716eaeb3a40ffe65c780b90cdaeade5f0",
+      "adapted": false
+    },
+    "scripts/reference_style.py": {
+      "source_sha256": "7630a13fd28c7dd787c301e108c9e919898ed1e550f0bf93da052fca00553448",
+      "export_sha256": "ff9c08f130af97ac400345f529d99cc34314a857b6cee5c7958d594ee06b6482",
+      "adapted": true
+    },
+    "scripts/reference_weather.cjs": {
+      "source_sha256": "25aa0d2c6c017b9bfd3c338972a7a6e490db0041a156b80634a36d3c9685e4b9",
+      "export_sha256": "a1ec93b5e6a96a42af317be2ece9dcf1ae408b2d0330dca8620005d069a472a6",
+      "adapted": true
+    },
+    "scripts/render_project.cjs": {
+      "source_sha256": "eee285bc0efcd905938faeabc76c1e6ff483af8318597220e58c8b04f4c67183",
+      "export_sha256": "a291c2bd72ce25752eb812f7fe53e89975e2afa93802a2b0e7ecc5d52c4b284f",
+      "adapted": true
+    },
+    "scripts/resolve_events.py": {
+      "source_sha256": "6425526a55183d7771994c86490e664d24ed1dd5acce9f335e38b81d875aa1b7",
+      "export_sha256": "6425526a55183d7771994c86490e664d24ed1dd5acce9f335e38b81d875aa1b7",
+      "adapted": false
+    },
+    "scripts/review_video.py": {
+      "source_sha256": "683d287d2fde77e8c3fafa3c22ea9dfde2efddd0289d475cd3d19744b48145d3",
+      "export_sha256": "683d287d2fde77e8c3fafa3c22ea9dfde2efddd0289d475cd3d19744b48145d3",
+      "adapted": false
+    },
+    "scripts/scenario_stage.cjs": {
+      "source_sha256": "81aea68c812633ddbad7562e356e95a8533e955fe34704da82b23d761624f3e2",
+      "export_sha256": "488b294f9841bb6b1640a6eb1e0dced1fcd45390377af26b12adc071b8545378",
+      "adapted": true
+    },
+    "scripts/scene_runtime.cjs": {
+      "source_sha256": "a6d487452d4e9781a721b611436d37ae114fbfea017b5d0c0040cbce7b91ec82",
+      "export_sha256": "d954b1a63da46d8d27bbd8b86756f7624cd64112a0a510e7c729602b67fa2801",
+      "adapted": true
+    },
+    "scripts/synthesize_sfx.py": {
+      "source_sha256": "5a133f7af790f9927640eabd4cfd3ebde8358aa3e81710854684eb3f5b6e439a",
+      "export_sha256": "5a133f7af790f9927640eabd4cfd3ebde8358aa3e81710854684eb3f5b6e439a",
+      "adapted": false
+    },
+    "scripts/thermal_flow.cjs": {
+      "source_sha256": "8e1d2d09db2a8e481632415eccff69e470bf04583913823dcce9bd137abd7bfb",
+      "export_sha256": "8e1d2d09db2a8e481632415eccff69e470bf04583913823dcce9bd137abd7bfb",
+      "adapted": false
+    },
+    "scripts/thermal_mechanisms.cjs": {
+      "source_sha256": "62836076433866d47919b82ea5639bda90b76c481d5ac79b7f8d803463d1623a",
+      "export_sha256": "baff17c868c6ed62653f98f306a32a57823678aec367676fea5d2969cc63d524",
+      "adapted": true
+    },
+    "scripts/type_motion.cjs": {
+      "source_sha256": "e777f1cc0a8b8ab71e7db0f933d65188bbcd42f9e0b4a40d809cdfc00c1dbda7",
+      "export_sha256": "e777f1cc0a8b8ab71e7db0f933d65188bbcd42f9e0b4a40d809cdfc00c1dbda7",
+      "adapted": false
+    },
+    "scripts/voice_handoff.py": {
+      "source_sha256": "d449f68b85529a184c0ba01948b71c3f19bd4db55f7601f04c4e0c3d6d354a17",
+      "export_sha256": "d449f68b85529a184c0ba01948b71c3f19bd4db55f7601f04c4e0c3d6d354a17",
+      "adapted": false
+    },
+    "scripts/weather_parts.cjs": {
+      "source_sha256": "d88a918c79c33d73879021ba0ebaa981918ac762107559b9ea9492785e0ecac4",
+      "export_sha256": "16f23a958e5a5cacc15f1fffb4109ddf69b3e06e3ba7e1541206a668fd6d7ca9",
+      "adapted": true
+    }
+  }
+}

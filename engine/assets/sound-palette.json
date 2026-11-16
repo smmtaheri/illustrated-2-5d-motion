@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "provenance": "original synthetic house palette; not source soundtrack extraction",
+  "generator": "scripts/synthesize_sfx.py",
+  "seed": 2601106,
+  "sample_rate": 48000,
+  "channels": 1,
+  "format": "PCM 16-bit little-endian WAV",
+  "normalization_is_not_mix_gain": true,
+  "cues": [
+    {
+      "file": "audio/air-sweep.wav",
+      "loopable": false,
+      "role": "soft filtered-air swell for a meaningful reveal",
+      "normalization_peak_dbfs": -19,
+      "frames": 13440,
+      "duration_seconds": 0.28,
+      "peak_dbfs": -18.999,
+      "rms_dbfs": -32.571
+    },
+    {
+      "file": "audio/soft-tick.wav",
+      "loopable": false,
+      "role": "muted marker for a discrete event",
+      "normalization_peak_dbfs": -20,
+      "frames": 4320,
+      "duration_seconds": 0.09,
+      "peak_dbfs": -19.999,
+      "rms_dbfs": -33.423
+    },
+    {
+      "file": "audio/soft-resolve.wav",
+      "loopable": false,
+      "role": "restrained tone for one explanatory resolution",
+      "normalization_peak_dbfs": -22,
+      "frames": 23040,
+      "duration_seconds": 0.48,
+      "peak_dbfs": -22.0,
+      "rms_dbfs": -34.339
+    },
+    {
+      "file": "audio/air-bed-loop.wav",
+      "loopable": true,
+      "role": "quiet diffuse atmospheric air",
+      "normalization_peak_dbfs": -25,
+      "frames": 192000,
+      "duration_seconds": 4.0,
+      "peak_dbfs": -24.998,
+      "rms_dbfs": -37.829
+    },
+    {
+      "file": "audio/distant-rain-loop.wav",
+      "loopable": true,
+      "role": "soft rainfall aloft without surface impacts",
+      "normalization_peak_dbfs": -25,
+      "frames": 192000,
+      "duration_seconds": 4.0,
+      "peak_dbfs": -24.998,
+      "rms_dbfs": -34.242
+    }
+  ]
+}

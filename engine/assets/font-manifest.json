@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "files": {
+    "LiberationSerif-Bold.ttf": {
+      "sha256": "443a4dbd694b6e4689925947b456e0532e10b19c90fa32eb39ea6c2cd9db9ebd",
+      "bytes": 370196
+    },
+    "NotoSansArabic-Regular.ttf": {
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "bytes": 244072
+    },
+    "Inter-Reel-Bold.ttf": {
+      "sha256": "5d636cbe34afb90bc2310e33b72aece42c8e43e0793efade619c5ecd8d2dcbf4",
+      "bytes": 343628
+    },
+    "LiberationSans-Bold.ttf": {
+      "sha256": "1b5f2da6f4cadce4c05b9ecebe3a6fcd374eb95ae443605e799f4c3287978939",
+      "bytes": 414568
+    },
+    "DejaVuSans-Bold.ttf": {
+      "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "bytes": 708920
+    },
+    "DejaVuSans.ttf": {
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "bytes": 759720
+    },
+    "LiberationSans-Regular.ttf": {
+      "sha256": "bade59d822652f76e6941aa87b40a87c13d1cc70db98ededb5011127efafd1d3",
+      "bytes": 410820
+    },
+    "NotoSansArabic-Bold.ttf": {
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    "Vazirmatn-Regular.ttf": {
+      "sha256": "b69fd4c680b8f3f225feabcc655a2c585d97627b8f5f5c0f9985e894069f3a56",
+      "bytes": 122752
+    },
+    "Vazirmatn-Bold.ttf": {
+      "sha256": "f635fdbea28f265de395ba83b4b1570dcf2f58d13c65469e61903b1c2d2ae723",
+      "bytes": 123036
+    }
+  },
+  "core_aliases": {
+    "Motion Sans": "DejaVuSans.ttf",
+    "Motion Sans Bold": "DejaVuSans-Bold.ttf",
+    "Motion Persian": "NotoSansArabic-Regular.ttf",
+    "Motion Persian Bold": "NotoSansArabic-Bold.ttf"
+  },
+  "project_defaults": {
+    "Reel Reference Sans": "LiberationSans-Regular.ttf",
+    "Reel Reference Bold": "Inter-Reel-Bold.ttf",
+    "Reel Serif Bold": "LiberationSerif-Bold.ttf"
+  },
+  "policy": "Exact bundled files. A logical family cannot bind to different bytes in the same process; use a fresh renderer process for another legacy font set."
+}

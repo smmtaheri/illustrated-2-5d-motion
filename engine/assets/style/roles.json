@@ -1,0 +1,81 @@
+{
+  "comparison_only": true,
+  "policy": "Compare caller-supplied art with the active brand/style reference. No historical reference media is bundled.",
+  "roles": {
+    "terrain": {
+      "observe": "Separate blue ridges, a muted green middle ground, and near silhouettes."
+    },
+    "slope": {
+      "observe": "A readable sloping section with low distance and independent travel along it."
+    },
+    "cloud": {
+      "observe": "Irregular stacked lobes, low lilac shadows, and an almost level base."
+    },
+    "instrument": {
+      "observe": "Keep scale, pointer/liquid/state and labels independently legible and animated where they communicate a change."
+    },
+    "flow": {
+      "observe": "Soft air volume from a visible source with contrasting interior markers."
+    },
+    "map": {
+      "observe": "Overhead surface with muted parcels and a continuous visible trajectory."
+    },
+    "comparison": {
+      "observe": "Shared scale, different conditions, and one accent per state."
+    },
+    "type": {
+      "observe": "Short stable headline, one warm accent, and adapted line breaks."
+    },
+    "light": {
+      "observe": "Separated depth planes, a warm contact point, and cool open sky."
+    },
+    "interior-window": {
+      "observe": "Thin illustrated glass rims and shallow matte frame depth; match the project light and material family."
+    },
+    "pressure-front": {
+      "observe": "A thin luminous contour, a transparent soft field, and a clear origin. The thunder arc adapts this material to a radial pressure front."
+    },
+    "valley-day": {
+      "observe": "Separate cool blue ridges, warm contact light, a thin meadow and river, and a dark grass foreground."
+    },
+    "valley-night": {
+      "observe": "Dark navy and violet distance, a low veil over the valley floor and separated slate peaks."
+    },
+    "valley-map": {
+      "observe": "A simple open valley band with a bright river, sparse roofs and three-lobed clouds viewed from above."
+    },
+    "wind-flag": {
+      "observe": "A fixed mast and finial carry separate cloth silhouettes and vertical fold shading."
+    },
+    "warm-balloon": {
+      "observe": "A compact orange envelope and ivory central panel taper to separate suspension and basket."
+    },
+    "side-flight": {
+      "observe": "The shallow wing is shown from the side with slender cables and a recognizable seated harness silhouette."
+    },
+    "valley-dusk": {
+      "observe": "Muted peach light low on the horizon with violet sky and separate slate ridges."
+    },
+    "brand": {
+      "observe": "Preserve the supplied brand mark, proportions, clear space, palette and approved type. Use project-specific evidence."
+    },
+    "product": {
+      "observe": "Keep the product silhouette, state and functional parts readable at delivery size; match the selected material family."
+    },
+    "mechanism": {
+      "observe": "Show independent causal action, visible relationships and the before/after state, with consistent scale and direction."
+    },
+    "character": {
+      "observe": "Match the scene illustration detail, palette and proportions; use a character only when it advances the explanation."
+    },
+    "environment": {
+      "observe": "Separate foreground, action plane and background with coherent lighting and restrained material detail."
+    },
+    "diagram": {
+      "observe": "Use spatially accurate anchors, clear symbols and readable labels; align visual states with the explanation."
+    },
+    "custom": {
+      "observe": "Define the artwork role and comparison criteria in this project, then compare the actual asset with its active reference."
+    }
+  }
+}

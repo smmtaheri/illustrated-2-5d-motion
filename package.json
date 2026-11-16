@@ -1,0 +1,7 @@
+{
+  "name": "illustrated-2-5d-motion",
+  "private": true,
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

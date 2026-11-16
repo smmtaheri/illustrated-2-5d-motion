@@ -1,0 +1,4 @@
+interface:
+  display_name: "Illustrated 2.5D Motion"
+  short_description: "Create layered illustrated motion across topics"
+  default_prompt: "Use $illustrated-2-5d-motion to create an illustrated 2.5D motion video from my brief and project references."

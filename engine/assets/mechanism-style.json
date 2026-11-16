@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "pan": {
+    "seed": 42,
+    "water_x": [
+      145,
+      185,
+      225,
+      265,
+      305,
+      345,
+      395
+    ],
+    "water_y": -47,
+    "bubble_count": 18,
+    "bubble_stroke": 1.15,
+    "bubble_rim_alpha": 0.82,
+    "wall_width": 8.4,
+    "bowl_stops": [
+      [
+        0,
+        "#697686"
+      ],
+      [
+        0.16,
+        "#667180"
+      ],
+      [
+        1,
+        "#3f6488"
+      ]
+    ],
+    "water_stops": [
+      [
+        0,
+        "#9ec3e1"
+      ],
+      [
+        0.31,
+        "#88b2d6"
+      ],
+      [
+        0.67,
+        "#6c99c7"
+      ],
+      [
+        1,
+        "#6383b1"
+      ]
+    ],
+    "steam_phases": [
+      0.17,
+      0.52,
+      0.81,
+      0.34
+    ],
+    "steam_alpha": 0.63,
+    "steam_stroke": 3.8,
+    "flame_seed": 19,
+    "flame_count": 17
+  },
+  "gauge": {
+    "low": 2.4504422698000385,
+    "ring_high": 6.723008278682158,
+    "needle_high": 6.98,
+    "amber": "#efa64f",
+    "body_stops": [
+      [
+        0,
+        "#263044"
+      ],
+      [
+        1,
+        "#111e32"
+      ]
+    ],
+    "face_stops": [
+      [
+        0,
+        "#eef1f5"
+      ],
+      [
+        1,
+        "#d8dfeb"
+      ]
+    ]
+  },
+  "thermometer": {
+    "tube_stops": [
+      [
+        0,
+        "#f1f1e8"
+      ],
+      [
+        0.55,
+        "#f8f8f0"
+      ],
+      [
+        1,
+        "#dce2e2"
+      ]
+    ],
+    "mercury_stops": [
+      [
+        0,
+        "#efa84d"
+      ],
+      [
+        1,
+        "#e99a3b"
+      ]
+    ]
+  }
+}
