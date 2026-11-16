@@ -13,7 +13,7 @@ character, publisher logo, voice provider or Follow animation is required.
 Clone the complete repository as a skill folder:
 
 ```bash
-git clone --branch master https://github.com/smmtaheri/illustrated-2-5d-motion.git \
+git clone --branch main https://github.com/smmtaheri/illustrated-2-5d-motion.git \
   "${CODEX_HOME:-$HOME/.codex}/skills/illustrated-2-5d-motion"
 cd "${CODEX_HOME:-$HOME/.codex}/skills/illustrated-2-5d-motion"
 ```
