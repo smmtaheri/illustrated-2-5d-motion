@@ -113,6 +113,25 @@ the supplied-recording handoff.
 An end card is optional and project-specific; time its arrival to the invitation
 and finish after necessary speech/logo/click events, without an arbitrary tail.
 
+## Package publication materials
+
+For a finished-video handoff, use these publication defaults unless the current
+project explicitly requests a different format:
+
+- **Cover:** extract a representative, readable frame from the actual final
+  encoded video being delivered. Keep the in-film composition and text. Do not
+  substitute a storyboard still, separate illustration, collage or redesigned
+  poster. Avoid half-finished transitions, motion blur and incomplete text.
+  Record the source video/version and selected timestamp or frame in the
+  existing delivery notes; choose again if that video changes.
+- **Caption:** one short, curiosity-provoking question, optionally followed by
+  one brief intriguing sentence, plus a few topic-relevant hashtags. Keep the
+  answer in the film; omit explanatory paragraphs, narration summaries and an
+  automatic follow CTA. Project-specific brand tags come from that project.
+
+Before handoff, check both the cover's source frame in this delivered video and
+the caption's short format. A successful encode does not complete these checks.
+
 ## Review evidence and improve gradually
 
 Inspect encoded output at its intended size and at normal speed. Check action
