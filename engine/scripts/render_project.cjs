@@ -73,7 +73,7 @@ async function main(){
  inventory.camera_locked=renderOptions.lockedCamera;
  if(renderOptions.hideHeadings)inventory.headings_hidden=true;
  fs.writeFileSync(path.join(out,'render-manifest.json'),JSON.stringify(inventory,null,2)+'\n');
- if(!opt['storyboard-only']&&!opt['picture-only']&&(project.plan.audio?.mode==='narrated'||project.plan.audio?.cues?.length)){
+ if(!opt['storyboard-only']&&!opt['picture-only']&&(project.plan.audio?.mode==='narrated'||project.plan.audio?.cues?.length||project.plan.audio?.music)){
   const mix=spawnSync('python3',[path.join(__dirname,'audio_timeline.py'),'--plan',path.resolve(opt.plan),'--picture',video,'--out',path.join(out,'final.mp4'),'--start',String(start),'--seconds',String(seconds),...(opt.probe?['--probe']:[])],{encoding:'utf8'});
   if(mix.status!==0)throw new Error(`Narration mix failed; picture is only a preview: ${mix.stderr||mix.stdout}`);
   const audio=JSON.parse(mix.stdout.trim().split('\n').at(-1));Object.assign(inventory.asset_paths,audio.asset_paths);inventory.asset_ids=Object.keys(inventory.asset_paths);inventory.picture_only=false;inventory.audio_report='final.audio.json';

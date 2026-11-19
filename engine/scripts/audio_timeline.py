@@ -12,6 +12,7 @@ import re
 import subprocess
 from tempfile import TemporaryDirectory
 from reference_audio_contract import validate_reference_master
+from music_bus import music_cue
 
 
 def run(cmd):
@@ -114,6 +115,7 @@ def main():
     peak_ceiling = -2.3 if 'mix_target_lufs' in audio else -1
     if not -30 <= target_lufs <= -10:
         raise ValueError('Mix target must be between -30 and -10 LUFS.')
+    music_track, music_report = music_cue(plan, base)
     tracks = []
     if audio.get('narration', {}).get('required'):
         n = audio['narration']
@@ -125,7 +127,9 @@ def main():
             cue['start'] = events[cue['event_id']] + cue.get('offset', 0)
             cue['end'] = cue['start'] + cue['duration_seconds']
         tracks.append(cue)
-    stereo_mix = any(cue.get('stereo_pan') or cue.get('stereo_delay_ms') for cue in tracks)
+    if music_track:
+        tracks.append(music_track)
+    stereo_mix = bool(music_track) or any(cue.get('stereo_pan') or cue.get('stereo_delay_ms') for cue in tracks)
     inputs = ['ffmpeg', '-nostdin', '-hide_banner', '-loglevel', 'error', '-y']
     filters, labels, used, records = [], [], {}, []
     finish = a.start + a.seconds
@@ -201,6 +205,7 @@ def main():
               'mix_target_lufs': target_lufs, 'mix_true_peak_ceiling_dbfs': peak_ceiling,
               'level_adjustment_db': level_adjustment,
               'audio_only': a.audio_only,
+              'music_bus': music_report,
               'direct_listening': False, 'reference_timbre_match_verified': False}
     a.out.with_suffix('.audio.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps(report, ensure_ascii=False))

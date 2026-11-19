@@ -490,6 +490,16 @@ class Validator:
                 self.issue("audio.narration_asset", "audio.narration.asset_id", "Declare the narration audio asset before rendering.", warning=self.manifest is None)
             else:
                 self.audio_asset(asset_id, "audio.narration.asset_id")
+        music = config.get("music")
+        if music is not None:
+            from music_bus import validate_music
+            try:
+                validate_music(music, self.plan["project"]["duration_seconds"])
+                self.audio_asset(music.get("asset_id"), "audio.music.asset_id")
+            except (ValueError, KeyError, TypeError) as exc:
+                self.issue("audio.music", "audio.music", str(exc))
+            if mode == "silent" or narration.get("preserve_reference_mix"):
+                self.issue("audio.music_mode", "audio.music", "Do not add music to a silent project or preserved reference master.")
         cues = self.array(config.get("cues"), "audio.cues")
         if narration.get('preserve_reference_mix'):
             if required is not True or cues or narration.get('start', 0) != 0:
@@ -501,8 +511,10 @@ class Validator:
                 self.issue('audio.reference_master_hash', 'audio.narration.source_sha256', 'Declare the validated SHA-256 of the reference mix.')
         if mode == "silent" and cues:
             self.issue("audio.silent_cues", "audio.cues", "A silent output cannot contain audio cues.")
-        if mode == "sound_only" and not cues and config.get("pending_user_narration") is not True:
+        if mode == "sound_only" and not cues and not music and config.get("pending_user_narration") is not True:
             self.issue("audio.no_cues", "audio.cues", "Sound-only output requires at least one planned audio cue.")
+        if music and any(isinstance(c, dict) and c.get("kind") == "music" for c in cues):
+            self.issue("audio.duplicate_music", "audio.music", "Do not declare both audio.music and a music cue.")
         seen = set()
         shot_map = {shot.get("id"): interval for shot, interval, _ in self.shots if isinstance(shot.get("id"), str)}
         for i, value in enumerate(cues):

@@ -43,7 +43,7 @@ RUNTIME = [
     "font_runtime.cjs", "scenario_stage.cjs", "thermal_flow.cjs", "thermal_mechanisms.cjs", "paraglider_rig.cjs", "type_motion.cjs", "scene_runtime.cjs", "motion_kit.cjs", "render_project.cjs",
     "check_project.py", "review_video.py", "audio_timeline.py", "reference_audio_contract.py",
     "assemble_narration.py", "resolve_events.py",
-    "audit_mix.py",
+    "audit_mix.py", "music_bus.py",
 ]
 SOUNDS = {
     name: f"assets/{directory}/{name}.wav"
@@ -597,6 +597,15 @@ def compile_recipe(recipe, source, out):
         key, _ = sound(requested_audio["bed"])
         cues.insert(0, {"id":"ambience","kind":"ambience","asset_id":key,"start":0,"end":total/fps,
                        "loop":True,"gain_db":requested_audio.get("bed_gain_db",-14),"stereo_delay_ms":14})
+    music = None
+    if requested_audio.get("music") is not None:
+        from music_bus import validate_music
+        required(mode != "silent", "Silent projects cannot have music.")
+        music = validate_music(requested_audio["music"], total/fps)
+        required(music.get("sound") != requested_audio.get("bed"), "A music track cannot also be the ambience bed.")
+        required(not any(c.get("kind") == "music" for c in cues), "Duplicate music bus.")
+        key, _ = sound(music.pop("sound"))
+        music["asset_id"] = key
     narration = {"required":mode=="narrated","language":None}
     if mode == "narrated":
         lang = settings["resolved"]["narration"]
@@ -615,6 +624,8 @@ def compile_recipe(recipe, source, out):
                  "mix_target_lufs":requested_audio.get("mix_target_lufs",-14.2)},
         "reviews":reviews,
     }
+    if music:
+        plan["audio"]["music"] = music
     if profile is not None:
         plan["project"]["style_profile"] = profile
     if art_reviews:

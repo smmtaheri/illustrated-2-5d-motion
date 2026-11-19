@@ -110,8 +110,28 @@ when known; never invent missing metadata. Measure supplied speech and pauses,
 then align scene changes, emphasis and cues. Do not truncate words to fit an
 assumed duration. The [recipe reference](references/recipe-format.md) explains
 the supplied-recording handoff.
+When asked for dialogue, provide copy-ready text in the current project's
+established voice format on the first pass. For Persian, use pronunciation
+diacritics and natural punctuation; retain delivery tags when requested or
+established by a successful project example. Keep tags separate from screen
+text, scene notes and SFX; do not impose one provider's syntax on other models.
+Preserve user-confirmed pronunciation exceptions, including words that work
+better without diacritics, within that project's voice/settings scope.
+For a phrase that reads poorly, try the smallest relevant change to a mark,
+spacing or pause. Record the wording and punctuation that work in the new take.
+Preserve the exact submitted TTS input, including tags, for text/audio provenance.
 An end card is optional and project-specific; time its arrival to the invitation
 and finish after necessary speech/logo/click events, without an arbitrary tail.
+
+When background music is requested or established by the project, record its
+audio identity in the project style sheet: a default track, a small related set
+of alternatives, selection reasons and any intentional quiet intervals. Reuse
+that family across episodes; keep its actual tracks and brand choices in the
+project. Keep narration, music, environmental ambience and event SFX separate.
+Read [background music and mixing](references/recipe-format.md#background-music-and-mixing)
+for the supported cue/envelope path. Preserve intelligible speech, unobtrusive
+loops and the ending's clock. A skill-only update does not select a track,
+generate audio or establish listening acceptance.
 
 ## Package publication materials
 
