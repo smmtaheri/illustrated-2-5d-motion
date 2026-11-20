@@ -70,6 +70,13 @@ occlusion and restrained relative motion. Secondary action should reinforce the
 main cause: a surface reacts, a gauge responds, a boundary moves, nearby actors
 change together. Keep enough quiet space for text and the focal action.
 
+Check depth in a representative still at the intended viewing size before
+animating. Use a legible silhouette and light-to-shadow change on the main
+subject, softer separation in the distance, and a visible contact or occlusion
+where it clarifies position. For an instrument close-up, show its mounting
+point and the basic volume of its body. For a graph, reserve the clearest
+contrast for the axis and values the viewer is reading.
+
 For a layer or field, show its extent, its boundary and the change inside it.
 Keep the source and result legible. If using graphs, preserve comparable axes
 and units, distinguish measured values from schematic trends and reveal each
@@ -88,6 +95,21 @@ planes separately adjustable. Verify screen position and apparent direction
 through the actual cut as well as the world-state tracks. For an explanatory
 before/after, preserve viewpoint, scale and a recognizable landmark so the
 change is easy to compare.
+
+Keep a grounded object, the surface at its foot and its contact shadow in the
+same world transform. Give buildings, trunks and poles fixed local anchors.
+Apply camera travel to the group and parallax to genuinely separate depth
+planes. Animate the part acted on, such as cloth attached to a pole or a branch
+attached to a trunk. In an encoded pan or push, track a point at the base and a
+nearby point on the ground at the start, middle and end. The contact should
+stay attached as both points move in the frame.
+
+Estimate proportions against a reference at comparable depth, such as a
+doorway, person, floor height or mounted instrument. Compare ground contacts
+before judging relative screen heights. Record the anchor and size assumption
+for objects that recur and check their proportions after a viewpoint change.
+Render a nearby tree with a readable trunk, canopy silhouette and contact
+shadow. Distant trees can use simpler forms within the same illustration family.
 
 Keep character size proportional to the phenomenon and other props. A character
 is optional; if present, give it a useful response or action and match its detail
@@ -123,6 +145,12 @@ idea, not simply with the start of a shot.
 Plan neighboring shots together: record the outgoing state, what the incoming
 shot reveals, and the visual bridge or deliberate contrast that motivates the
 cut. Choose the transition from that relationship; a simple cut can be enough.
+For a cut on action, put the last outgoing and first incoming frames side by
+side. Compare the focal point, direction and phase of the action. If the timing
+is unclear, try a few frames earlier and later in a short local animatic.
+When testing a directional reveal, check that its leading edge guides the eye
+toward the new information. Confirm the choice on the voiced timeline at
+normal speed.
 Review the storyboard in sequence without relying on narration or headings to
 hide repeated information/layouts, unexplained scale changes or accidental
 state resets. Keep useful reading holds and purposeful returns when the result

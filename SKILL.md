@@ -44,6 +44,10 @@ lighting, contour and detail level. Richness comes from useful depth planes,
 occlusion, secondary response and changing states, not decorative texture alone.
 Use characters and instruments only when they help tell this story.
 
+Check [ground contact and readable scale](references/art-direction.md#maintain-continuity-and-readable-scale)
+when buildings, vegetation or instruments share a ground plane. Plan important
+cuts with the [outgoing and incoming frame check](references/art-direction.md#finish-on-the-storys-clock).
+
 Reuse suitable geometry and motion helpers. Keep subject-specific staging in the
 project; do not copy the whole engine or impose a previous landscape on a new
 subject. Use code/vector assets for exact diagrams and type. Use image creation
